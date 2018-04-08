@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 var bot = new Discord.Client();
-const Token = 'NDMxOTczMzQwMjE2MDMzMjkw.Darw9w.X_i1GMyKnhTvnYckrC7Pl5OY5I8';
 const Prefijo = 'j!'
 var cli = new Discord.Client({autoReconnect:true});
 
