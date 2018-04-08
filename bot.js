@@ -49,7 +49,7 @@ bot.on('message', function(message) {
            break;
 
         case "info":
-            message.channel.send("*Versión de JeffreyBot: 1.3.0*")
+            message.channel.send("*Versión de JeffreyBot: 2.0.0*")
             break;
 
         case "llego":
@@ -63,6 +63,11 @@ bot.on('message', function(message) {
         case "pregunta":
             if (args[1]) message.channel.send(message.author.toString() + " " + "La respuesta a tu pregunta es: " + fortunas[Math.floor(Math.random()* fortunas.length)]);
             else message.channel.send("No pude leer eso ;-;");
+            break;
+        
+        case "novedades":
+            message.channel.send("En la versión 2.0.0 ahora el bot es 24/7")
+            message.channel.send("Ahora el bot podrá ser usado las 24 horas del día.")
             break;
 
         case "links":
