@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
 var bot = new Discord.Client();
 const Prefijo = 'j!'
-var cli = new Discord.Client({autoReconnect:true});
 
 var fortunas = [
     'Sí',
