@@ -37,6 +37,7 @@ bot.on('message', function(message) {
            .addField("j!pregunta", "Pregúntame cualquier cosa y yo te responderé con sinceridad! Con respuestas de: Sí, No, Tal vez...")
            .addField("j!info", "Te dice mi versión (Jeffrey Bot)")
            .addField("j!llego", "Hago saber que tú estas conectado.")
+           .addField("j!novedades", "Que hay de nuevo en mi última actualización?
            .addField("j!links", "Envía un mensaje con los links de redes sociales y del server.")
            .addField("?prefijo", "Te dice el prefijo para citar comandos.")
            .addField("j!ayuda", "Te muestra este mensaje.")
@@ -66,8 +67,8 @@ bot.on('message', function(message) {
             break;
         
         case "novedades":
-            message.channel.send("En la versión 2.0.0 ahora el bot es 24/7")
-            message.channel.send("Ahora el bot podrá ser usado las 24 horas del día.")
+            message.channel.send("En la versión 2.1.0")
+            message.channel.send("Ahora tiene el nuevo icono de JeffreyGMD.")
             break;
             
         case "links":
