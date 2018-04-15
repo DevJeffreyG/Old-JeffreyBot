@@ -76,7 +76,7 @@ bot.on('message', function(message) {
             .addBlankField("2. Respetar a todos en el server.")
             .addBlankField("2. Respetar a todos en el server.")
             .addBlankField("2. Respetar a todos en el server.")
-            message.channel.send(embed)
+            message.channel.send(embed);
         break;
 
         case "links":
