@@ -72,7 +72,7 @@ bot.on('message', function(message) {
         case "reglas":   
         var embed = new Discord.RichEmbed()
         .addField("**REGLAS**")
-        .addField("1. Actuar con *sentido común*.")
+        .addField("1. Actuar con `sentido común`.")
         .addField("2. Respetar a **todos** en el server.")
         .addField("3. __**Tienes prohibido**__:")
         .addField("➤ Hacer **Spam/Flood** en los canales de chat *[ Permitido en #▸offtopic ]*", "El spam tipo enviar URL no es admitido.")
