@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
 var bot = new Discord.Client();
 const Prefijo = 'j!'
-const Token = 'NDMxOTczMzQwMjE2MDMzMjkw.DbUfaQ.m4r6cseee2dbbriifes6K1MKkRw';
 
 var fortunas = [
     'Sí',
@@ -76,7 +75,7 @@ bot.on('message', function(message) {
             .setColor(0x00ff15)
             .setThumbnail(message.author.avatarURL)
             .setTitle("**REGLAS**")
-            .setDescription("1. Tener y actuar con `sentido común`.")
+            .addField("-", "1. Tener y actuar con `sentido común`.")
             .addField("-", "2. **Respetar** a ***todos*** en el server.")
             .addField("-", "3. Leer todos los mensajes anclados de los canales de chat.")
             message.channel.send(embed);
