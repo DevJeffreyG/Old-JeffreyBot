@@ -72,12 +72,32 @@ bot.on('message', function(message) {
             
         case "reglas":
         var embed = new Discord.RichEmbed()
-            .addField("**REGLAS**", "1. Actuar con *sentido común.*")
-            .addBlankField("2. Respetar a todos en el server.")
-            .addBlankField("2. Respetar a todos en el server.")
-            .addBlankField("2. Respetar a todos en el server.")
+        .addField("**REGLAS**")
+        .addField("1. Actuar con *sentido común*.")
+        .addField("2. Respetar a **todos** en el server.")
+        .addField("3. __**Tienes prohibido**__:")
+        .addField("➤ Hacer **Spam/Flood** en los canales de chat *[ Permitido en #▸offtopic ]*", "El spam tipo enviar URL no es admitido.")
+        .addField("➤ Tener una actitud que pueda molestar a los demás del servidor.")
+        .addField("➤ Hacer **spoilers**. ***De cualquier tipo***")
+        .addField("➤ Utilizar los canales de manera incorrecta.")
+        .addField("➤ Escribir palabrotas. ( se permite *alv* y *lpm* [ La acortación ])")
+        .addField("➤ Excesivas menciones (@)")
+        .addField("➤ *[ Permitido en #▸offtopic ]*")
+        .addField("➤ Abusar de emojis.")
+        .addField("➤ Escribir mucho en Mayúsculas.", "Ejempo: HOLA A TODOS COMO ESTAN?!")
+        .addField("➤ Poner Gmi2 o música sobre-explotada que pueda molestar a otros usuarios.")
+        .addField("➤ Pedir cualquier rango, ya sea en Discord o en GDPS", "Si pides por mensaje privado serás bloquedo.")
+        .addField("➤ Usar links, a menos que seas moderador del Discord. Hazlo en privado.")
+        .addField("➤ Enviar invitaciones a cualquier otro server diferente a GDPS JeffreyGMD. Hazlo en privado.")
+        .addField("4. Leer todos los mensajes anclados de los canales de chat.")
+        .addField("**EXTRA**")
+        .addField("➤ Si necesitas ayuda con algo, pregúntalo en #《☏》ayuda-support")
+        .setFooter("Las reglas pueden cambiar")
+        .setColor(0x00ff15)
+        .setThumbnail(message.author.avatarURL)
+
             message.channel.send(embed);
-        break;
+            break;
 
         case "links":
         var embed = new Discord.RichEmbed()
