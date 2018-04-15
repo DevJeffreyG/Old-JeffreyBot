@@ -69,6 +69,15 @@ bot.on('message', function(message) {
             message.channel.send("En la versión 2.0.0 ahora el bot es 24/7")
             message.channel.send("Ahora el bot podrá ser usado las 24 horas del día.")
             break;
+            
+        case "reglas":
+        var embed = new Discord.RichEmbed()
+            .addField("**REGLAS**", "1. Actuar con *sentido común.*")
+            .addBlankField("2. Respetar a todos en el server.")
+            .addBlankField("2. Respetar a todos en el server.")
+            .addBlankField("2. Respetar a todos en el server.")
+            message.channel.send(embed)
+        break;
 
         case "links":
         var embed = new Discord.RichEmbed()
