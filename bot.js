@@ -68,41 +68,6 @@ bot.on('message', function(message) {
             message.channel.send("En la versión 2.0.0 ahora el bot es 24/7")
             message.channel.send("Ahora el bot podrá ser usado las 24 horas del día.")
             break;
-        
-        case "reglas":
-        // `codigo` , **Negrilla**, *cursiva*, __subrayada__ .
-            var embed = new Discord.RichEmbed()
-            .setColor(0x00ff15)
-            .setThumbnail(message.author.avatarURL)
-            .setTitle("**REGLAS**")
-            .addField("-", "1. Tener y actuar con `sentido común`.")
-            .addField("-", "2. **Respetar** a ***todos*** en el server.")
-            .addField("-", "3. Leer todos los mensajes anclados de los canales de chat.")
-            message.channel.send(embed);
-
-            var embed2 = new Discord.RichEmbed()
-            .setColor(0x00ff15)
-            .setTitle("__**Tienes prohibido**__:")
-            .addField("➤", "Hacer **Spam/Flood** en los canales de chat. *[ Permitido en \#▸offtopic ]*")
-            .addField("➤", "Tener una actitud que pueda **molestar** a los demás del servidor.")
-            .addField("➤", " Hacer **spoilers**. ***De cualquier tipo.***")
-            .addField("➤", " Utilizar los canales de manera incorrecta.")
-            .addField("➤", " Escribir palabrotas. ( se permite *alv* y *lpm* [ La acortación ])")
-            .addField("➤", " Excesivas menciones. (@)")
-            .addField("➤", " Abusar de emojis.")
-            .addField("➤", " Escribir mucho en Mayúsculas. `Por Ejempo: HOLA A TODOS COMO ESTAN?!`")
-            .addField("➤", " Poner Gmi2 o música sobre-explotada que pueda molestar a otros usuarios.")
-            .addField("➤", " Pedir cualquier rango, ya sea en Discord o en GDPS. *`Si pides por mensaje privado serás ignorado.`*")
-            .addField("➤", " Usar `links`, a menos que seas **moderador** del Discord. Hazlo en privado.")
-            .addField("➤", " Enviar invitaciones a cualquier otro server diferente a `__***GDPS JeffreyGMD***__`. Hazlo en privado.")
-            message.channel.send(embed2);
-
-            var embed3 = new Discord.RichEmbed()
-            .setColor(0x00ff15)
-            .setTitle("**EXTRA**")
-            .setFooter("Las reglas pueden cambiar.")
-            message.channel.send(embed3);
-            break;
             
         case "links":
         var embed = new Discord.RichEmbed()
