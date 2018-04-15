@@ -90,7 +90,7 @@ bot.on('message', function(message) {
             .setDescription("➤ Usar `links`, a menos que seas **moderador** del Discord. Hazlo en privado.")
             .setDescription("➤ Enviar invitaciones a cualquier otro server diferente a `__***GDPS JeffreyGMD***__`. Hazlo en privado.")
             .setDescription("4. Leer todos los mensajes anclados de los canales de chat.")
-            .setTitle("**EXTRA**")
+            .setDescription("**EXTRA**")
             .setDescription("➤ Si necesitas ayuda con algo, pregúntalo en \#《☏》ayuda-support")
             .setFooter("Las reglas pueden cambiar.")
             .setColor(0x00ff15)
