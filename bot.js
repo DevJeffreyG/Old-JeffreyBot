@@ -71,10 +71,33 @@ bot.on('message', function(message) {
             break;
         
         case "reglas":
-        var embed = new Discord.RichEmbed()
-        .setDescription("just a `test`")
-        message.channel.send(embed);
-            break;
+        // `codigo` , **Negrilla**, *cursiva*, __subrayada__ .
+            var embed = new Discord.RichEmbed()
+            .setTitle("**REGLAS**")
+            .setDescription("1. Tener y actuar con `sentido común`.")
+            .setDescription("2. **Respetar* a ***todos*** en el server.")
+            .setDescription("3. __**Tienes prohibido**__:")
+            .setDescription("➤ Hacer **Spam/Flood** en los canales de chat. *[ Permitido en \#▸offtopic ]*")
+            .setDescription("➤ Tener una actitud que pueda **molestar** a los demás del servidor.")
+            .setDescription("➤ Hacer **spoilers**. ***De cualquier tipo.***")
+            .setDescription("➤ Utilizar los canales de manera incorrecta.")
+            .setDescription("➤ Escribir palabrotas. ( se permite *alv* y *lpm* [ La acortación ])")
+            .setDescription("➤ Excesivas menciones. (@)")
+            .setDescription("➤ Abusar de emojis.")
+            .setDescription("➤ Escribir mucho en Mayúsculas. `Por Ejempo: HOLA A TODOS COMO ESTAN?!`")
+            .setDescription("➤ Poner Gmi2 o música sobre-explotada que pueda molestar a otros usuarios.")
+            .setDescription("➤ Pedir cualquier rango, ya sea en Discord o en GDPS. *`Si pides por mensaje privado serás ignorado.`*")
+            .setDescription("➤ Usar `links`, a menos que seas **moderador** del Discord. Hazlo en privado.")
+            .setDescription("➤ Enviar invitaciones a cualquier otro server diferente a `__***GDPS JeffreyGMD***__`. Hazlo en privado.")
+            .setDescription("4. Leer todos los mensajes anclados de los canales de chat.")
+            .setTitle("**EXTRA**")
+            .setDescription("➤ Si necesitas ayuda con algo, pregúntalo en \#《☏》ayuda-support")
+            .setFooter("Las reglas pueden cambiar.")
+            .setColor(0x00ff15)
+            .setThumbnail(message.author.avatarURL)
+                
+                message.channel.send(embed);
+                break;
             
         case "links":
         var embed = new Discord.RichEmbed()
