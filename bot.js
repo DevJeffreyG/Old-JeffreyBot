@@ -71,9 +71,9 @@ bot.on('message', function(message) {
             break;
         
         case "reglas":
-            message.channel.send({
-                "content":"`nani?`"
-            })
+        var embed = new Discord.RichEmbed()
+        .setDescription("just a `test`")
+        message.channel.send(embed);
             break;
             
         case "links":
