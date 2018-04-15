@@ -69,38 +69,36 @@ bot.on('message', function(message) {
             message.channel.send("En la versión 2.0.0 ahora el bot es 24/7")
             message.channel.send("Ahora el bot podrá ser usado las 24 horas del día.")
             break;
+        case "reglas":   
+        var embed = new Discord.RichEmbed()
+        .addField("**REGLAS**")
+        .addField("1. Actuar con *sentido común*.")
+        .addField("2. Respetar a **todos** en el server.")
+        .addField("3. __**Tienes prohibido**__:")
+        .addField("➤ Hacer **Spam/Flood** en los canales de chat *[ Permitido en #▸offtopic ]*", "El spam tipo enviar URL no es admitido.")
+        .addField("➤ Tener una actitud que pueda molestar a los demás del servidor.")
+        .addField("➤ Hacer **spoilers**. ***De cualquier tipo***")
+        .addField("➤ Utilizar los canales de manera incorrecta.")
+        .addField("➤ Escribir palabrotas. ( se permite *alv* y *lpm* [ La acortación ])")
+        .addField("➤ Excesivas menciones (@)")
+        .addField("➤ *[ Permitido en #▸offtopic ]*")
+        .addField("➤ Abusar de emojis.")
+        .addField("➤ Escribir mucho en Mayúsculas.", "Ejempo: HOLA A TODOS COMO ESTAN?!")
+        .addField("➤ Poner Gmi2 o música sobre-explotada que pueda molestar a otros usuarios.")
+        .addField("➤ Pedir cualquier rango, ya sea en Discord o en GDPS", "Si pides por mensaje privado serás bloquedo.")
+        .addField("➤ Usar links, a menos que seas moderador del Discord. Hazlo en privado.")
+        .addField("➤ Enviar invitaciones a cualquier otro server diferente a GDPS JeffreyGMD. Hazlo en privado.")
+        .addField("4. Leer todos los mensajes anclados de los canales de chat.")
+        .addField("**EXTRA**")
+        .addField("➤ Si necesitas ayuda con algo, pregúntalo en #《☏》ayuda-support")
+        .setFooter("Las reglas pueden cambiar")
+        .setColor(0x00ff15)
+        .setThumbnail(message.author.avatarURL)
+
+            message.channel.send(embed);
+            break;
             
-        case "reglas":
-            message.channel.send({embed: {
-    color: 3447003,
-    author: {
-      name: client.user.username,
-      icon_url: client.user.avatarURL
-    },
-    title: "This is an embed",
-    url: "http://google.com",
-    description: "This is a test embed to showcase what they look like and what they can do.",
-    fields: [{
-        name: "Fields",
-        value: "They can have different fields with small headlines."
-      },
-      {
-        name: "Masked links",
-        value: "You can put [masked links](http://google.com) inside of rich embeds."
-      },
-      {
-        name: "Markdown",
-        value: "You can put all the *usual* **__Markdown__** inside of them."
-      }
-    ],
-    timestamp: new Date(),
-    footer: {
-      icon_url: client.user.avatarURL,
-      text: "© Example"
-    }
-  }
-});
-break;
+            
         case "links":
         var embed = new Discord.RichEmbed()
         .addField("YouTube de Jeffrey", "https://www.youtube.com/channel/UCCYiF7GGja7iJgsc4LN0oHw", true)
