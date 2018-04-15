@@ -97,7 +97,12 @@ bot.on('message', function(message) {
 
             message.channel.send(embed);
             break;
-            
+        
+        case "reglas2":
+          message.channel.send({
+            "content":"`sentido común`"
+          })
+        break;
             
         case "links":
         var embed = new Discord.RichEmbed()
