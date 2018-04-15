@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 var bot = new Discord.Client();
 const Prefijo = 'j!'
+const Token = 'NDMxOTczMzQwMjE2MDMzMjkw.DbUfaQ.m4r6cseee2dbbriifes6K1MKkRw';
 
 var fortunas = [
     'Sí',
