@@ -83,13 +83,12 @@ bot.on('message', function(message) {
             break;
         
         case "encuesta":
-            if (args[1]) {
+            if (args[1])
                 message.react("👍")
                 .then(message.react("👎"))
-                .then(message.react("🖕"))
-            }
-        
+                    .then(message.react("🖕"));
         else message.channel.send("Escribe tu encuesta! :/")
+            message.channel.send("Este comando esta en fase BETA")
             break;
 
         default:
