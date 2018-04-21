@@ -88,6 +88,8 @@ bot.on('message', function(message) {
                 .then(message.react("👎"))
                 .then(message.react("🖕"));
         
+            }
+            
         else message.channel.send("Escribe tu encuesta! :/")
             break;
 
