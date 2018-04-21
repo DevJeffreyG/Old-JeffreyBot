@@ -83,11 +83,14 @@ bot.on('message', function(message) {
             break;
         
         case "encuesta":
-        message.channel.send("TEST")
-        message.react("👍")
-        .then(message.react("👎"))
-        .then(message.react(":middle_finger:"))
-        .catch(console.error);
+            if (args[1]) {
+                message.react("👍")
+                .then(message.react("👎"))
+                .then(message.react("🖕"))
+            }
+        
+        else message.channel.send("Escribe tu encuesta! :/")
+            break;
 
         default:
             message.channel.send("Comando no existente!");
