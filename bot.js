@@ -87,15 +87,6 @@ bot.on('message', function(message) {
                 message.react("👍")
                 .then(message.react("👎"))
                 .then(message.react("🖕"))
-
-                client.on("MessageReactionAdd", function(users) {
-                    if (message.react === "👍") {
-                      users.addRole(users.guild.roles.find("Verde | Green", setup.verify))
-                    } else if (!message.react === "👍") {
-                      user.removeRole(users.guild.role.find("Creador", setup.default))
-                    }
-                    });
-            }
         
         else message.channel.send("Escribe tu encuesta! :/")
             break;
