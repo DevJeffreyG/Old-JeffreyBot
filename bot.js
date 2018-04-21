@@ -81,6 +81,13 @@ bot.on('message', function(message) {
         .setThumbnail(message.author.avatarURL)
             message.channel.send(embed);
             break;
+        
+        case "encuesta":
+        message.channel.send("TEST")
+        message.react("👍")
+        .then(message.react("👎"))
+        .then(message.react(":middle_finger:"))
+        .catch(console.error);
 
         default:
             message.channel.send("Comando no existente!");
