@@ -28,7 +28,7 @@ bot.on('message', function(message) {
     };
 
     if (!message.content.startsWith(Prefijo)) return;
-    var args = message.content.substring(Prefijo.length).split(" ");
+    var args = message.content.substring(Prefijo.length).split(/ +/);
 
     switch(args[0].toLowerCase()) {
     //  C+V
@@ -93,14 +93,6 @@ bot.on('message', function(message) {
         else message.channel.send("Escribe tu encuesta! :/")
             break;
         
-        case "color":
-        var color = args[1];
-        var who = args[2];
-        
-        message.who.send(author + " Quiere para su Nickname el color " + color)
-
-        break;
-
         default:
             message.channel.send("Comando no existente!");
             break;
