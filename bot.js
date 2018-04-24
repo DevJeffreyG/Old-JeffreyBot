@@ -86,8 +86,13 @@ bot.on('message', function(message) {
             if (args[1]) {
                 message.react("👍")
                 .then(message.react("👎"))
-                .then(message.react("🖕"));
-        
+                .then(message.react("🖕"))
+                .then(message.react("\:me_gusta:"))
+                .then(message.react("\:me_emperra:"))
+                .then(message.react("\:me_encorazona:"))
+                .then(message.react("\:me_enllora:"))
+                .then(message.react("\:me_flipa:"))
+                .then(message.react("\:me_enrie:"));
             }
             
         else message.channel.send("Escribe tu encuesta! :/")
