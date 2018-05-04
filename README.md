@@ -7,3 +7,6 @@ para invitar al bot a tu server.
 
 # ¿Como usar?
 Si no sabes los comandos solo has j!ayuda
+
+# ¿Qué hay de nuevo?
+Para saber que hay de nuevo sólo has el comando j!novedades te dirá que hay de nuevo en la última actualización.
