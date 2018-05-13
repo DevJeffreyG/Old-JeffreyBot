@@ -77,27 +77,27 @@ bot.on('message', function(message) {
     
     // Offtopic
     if (message.content == "hola"){
-        message.author.send("Adiós.");
+        message.channel.send("Adiós.");
     };
     
     if (message.content == "jajaja"){
-        message.author.send("c mamo");
+        message.channel.send("c mamo");
     };
     
     if (message.content == "ok"){
-        message.author.send("A ok*");
+        message.channel.send("A ok*");
     };
     
     if (message.content == "oc"){
-        message.author.send("A oc*");
+        message.channel.send("A oc*");
     };
     
     if (message.content == "okc"){
-        message.author.send("Porque te copias de yefrigemede >:v");
+        message.channel.send("Porque te copias de yefrigemede >:v");
     };
     
     if (message.content == "Hey"){
-        message.author.send("Bye.");
+        message.channel.send("Bye.");
     };
 
     if (!message.content.startsWith(Prefijo)) return;
