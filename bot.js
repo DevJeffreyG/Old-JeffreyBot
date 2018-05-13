@@ -123,7 +123,7 @@ bot.on('message', function(message) {
            break;
 
         case "info":
-            message.channel.send("*Versión de JeffreyBot: 2.1.0*")
+            message.channel.send("*Versión de JeffreyBot: 2.5.0*")
             break;
 
         case "llego":
@@ -140,8 +140,8 @@ bot.on('message', function(message) {
             break;
         
         case "novedades":
-            message.channel.send("En la versión 2.1.0")
-            message.channel.send("Ahora tiene el nuevo icono de JeffreyGMD.")
+            message.channel.send("En la versión 2.5.0")
+            message.channel.send("Tiene muchas respuestas entre ellas: 'ok = A ok' , 'oc = A oc' y se incluye el md informativo del comando !give *es un comando del servidor de discord de JeffreyGMD.*")
             break;
             
         case "links":
