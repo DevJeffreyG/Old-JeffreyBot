@@ -25,6 +25,74 @@ bot.on('message', function(message) {
     if (message.content == "?prefijo"){
         message.channel.send("El prefijo es " + Prefijo);
     };
+    
+    if (message.content == "ira pues"){
+        message.channel.send("dijo el ded xDxDxdXdxdxDxDD");
+    };
+    
+    if (message.content == "!give 1"){
+        message.author.send("Hey! El comando no es así!, el comando es incluyendo el guión **-**.");
+    };
+    
+    if (message.content == "!give 2"){
+        message.author.send("Hey! El comando no es así!, el comando es incluyendo el guión **-**.");
+    };
+    
+    if (message.content == "!give 3"){
+        message.author.send("Hey! El comando no es así!, el comando es incluyendo el guión **-**.");
+    };
+    
+    if (message.content == "!give 4"){
+        message.author.send("Hey! El comando no es así!, el comando es incluyendo el guión **-**.");
+    };
+    
+    if (message.content == "!give 5"){
+        message.author.send("Hey! El comando no es así!, el comando es incluyendo el guión **-**.");
+    };
+    
+    if (message.content == "!give 6"){
+        message.author.send("Hey! El comando no es así!, el comando es incluyendo el guión **-**.");
+    };
+    
+    if (message.content == "!give 7"){
+        message.author.send("Hey! El comando no es así!, el comando es incluyendo el guión **-**.");
+    };
+    
+    if (message.content == "!give 8"){
+        message.author.send("Hey! El comando no es así!, el comando es incluyendo el guión **-**.");
+    };
+    
+    if (message.content == "!give 9"){
+        message.author.send("Hey! El comando no es así!, el comando es incluyendo el guión **-**.");
+    };
+    
+    if (message.content == "!give 10"){
+        message.author.send("Hey! El comando no es así!, el comando es incluyendo el guión **-**.");
+    };
+    
+    if (message.content == "hola"){
+        message.author.send("Adiós.");
+    };
+    
+    if (message.content == "jajaja"){
+        message.author.send("c mamo");
+    };
+    
+    if (message.content == "ok"){
+        message.author.send("A ok*");
+    };
+    
+    if (message.content == "oc"){
+        message.author.send("A oc*");
+    };
+    
+    if (message.content == "okc"){
+        message.author.send("Porque te copias de yefrigemede >:v");
+    };
+    
+    if (message.content == "Hey"){
+        message.author.send("Bye.");
+    };
 
     if (!message.content.startsWith(Prefijo)) return;
     var args = message.content.substring(Prefijo.length).split(/ +/);
