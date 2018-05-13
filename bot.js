@@ -26,7 +26,7 @@ bot.on('message', function(message) {
         message.channel.send("El prefijo es " + Prefijo);
     };
     
-    if (message.content == "ira pues"){
+    if (message.content == "ira pues" || "Ira pues"){
         message.channel.send("dijo el ded xDxDxdXdxdxDxDD");
     };
     
