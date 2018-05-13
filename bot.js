@@ -25,11 +25,16 @@ bot.on('message', function(message) {
     if (message.content == "?prefijo"){
         message.channel.send("El prefijo es " + Prefijo);
     };
-    
-    if (message.content == "ira pues" || "Ira pues"){
+    // Ded
+    if (message.content == "ira pues"){
         message.channel.send("dijo el ded xDxDxdXdxdxDxDD");
     };
     
+    if (message.content == "Ira pues"){
+        message.channel.send("dijo el ded xDxDxdXdxdxDxDD");
+    };
+    
+    // Comando !give error
     if (message.content == "!give 1"){
         message.author.send("Hey! El comando no es así!, el comando es incluyendo el guión **-**.");
     };
@@ -70,6 +75,7 @@ bot.on('message', function(message) {
         message.author.send("Hey! El comando no es así!, el comando es incluyendo el guión **-**.");
     };
     
+    // Offtopic
     if (message.content == "hola"){
         message.author.send("Adiós.");
     };
