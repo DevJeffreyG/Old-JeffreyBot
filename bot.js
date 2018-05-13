@@ -35,6 +35,10 @@ bot.on('message', function(message) {
     };
     
     // Comando !give error
+    if (message.content == "!give"){
+        message.author.send("Estaría shido que eligieras un color crack ;-;");
+    };
+    
     if (message.content == "!give 1"){
         message.author.send("Hey! El comando no es así!, el comando es incluyendo el guión **-**.");
     };
