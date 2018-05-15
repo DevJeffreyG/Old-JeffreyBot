@@ -80,7 +80,17 @@ bot.on('message', function(message) {
     };
     
     // Offtopic
-    // https://cdn.discordapp.com/attachments/435174664864530456/445743391259623435/FB_IMG_15261774472094686.jpg
+    if (message.content == "oof"){
+        message.channel.send("dijo el men que c murio en rublax jaja xd");
+    };
+    
+    if (message.content == "Oof"){
+        message.channel.send("dijo el men que c murio en rublax jaja xd");
+    };
+    
+    if (message.content == "OOF"){
+        message.channel.send("dijo el men que c murio en rublax jaja xd");
+    };
     
     if (message.content == "no c"){
         message.channel.send("https://cdn.discordapp.com/attachments/435174664864530456/445743391259623435/FB_IMG_15261774472094686.jpg");
