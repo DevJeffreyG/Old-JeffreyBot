@@ -100,6 +100,14 @@ bot.on('message', function(message) {
     };
     
     // Offtopic
+    if (message.content == "bai"){
+        message.channel.send("largate a nadie le importas nmms ;v");
+    };
+    
+    if (message.content == "BAI"){
+        message.channel.send("largate a nadie le importas nmms ;v");
+    };
+    
     if (message.content == "oof"){
         message.channel.send("dijo el men que c murio en rublax jaja xd");
     };
