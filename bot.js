@@ -88,15 +88,15 @@ bot.on('message', function(message) {
     // mi papada toda sensual.jpg https://cdn.discordapp.com/attachments/435174664864530456/445745484938608654/Screenshot_20180514-180640.png
     
     if (message.content == "jeff"){
-        message.channel.send("Aquí te envio una foto super secsi de jeff para que no te sientas solo :)" + jeff[Math.floor(Math.random()* jeff.length)]);
+        message.channel.send("Aquí te envio una foto super secsi de jeff para que no te sientas solo :) " + jeff[Math.floor(Math.random()* jeff.length)]);
     };
     
     if (message.content == "Jeff"){
-        message.channel.send("Aquí te envio una foto super secsi de jeff para que no te sientas solo :)" + jeff[Math.floor(Math.random()* jeff.length)]);
+        message.channel.send("Aquí te envio una foto super secsi de jeff para que no te sientas solo :) " + jeff[Math.floor(Math.random()* jeff.length)]);
     };
     
     if (message.content == "JEFF"){
-        message.channel.send("Aquí te envio una foto super secsi de jeff para que no te sientas solo :)" + jeff[Math.floor(Math.random()* jeff.length)]);
+        message.channel.send("Aquí te envio una foto super secsi de jeff para que no te sientas solo :) " + jeff[Math.floor(Math.random()* jeff.length)]);
     };
     
     // Offtopic
