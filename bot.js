@@ -80,6 +80,24 @@ bot.on('message', function(message) {
     };
     
     // Offtopic
+    if (message.content == "c mamo"){
+        message.channel.send("siono raza :v?");
+    };
+    
+    if (message.content == "C mamo"){
+        message.channel.send("siono raza :v?");
+    };
+    
+    if (message.content == "C MAMO"){
+        message.channel.send("siono raza :v?");
+    };
+    
+    if (message.content == "C"){
+        message.channel.send("bastian");
+        message.channel.send("vedol");
+        message.channel.send("fue con otro :''''''''''''v");
+    };
+    
     if (message.content == "hola"){
         message.channel.send("Adiós.");
     };
