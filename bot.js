@@ -80,6 +80,32 @@ bot.on('message', function(message) {
     };
     
     // Offtopic
+    // https://cdn.discordapp.com/attachments/435174664864530456/445743391259623435/FB_IMG_15261774472094686.jpg
+    
+    if (message.content == "no c"){
+        message.channel.send("https://cdn.discordapp.com/attachments/435174664864530456/445743391259623435/FB_IMG_15261774472094686.jpg");
+    };
+    
+    if (message.content == "No c"){
+        message.channel.send("https://cdn.discordapp.com/attachments/435174664864530456/445743391259623435/FB_IMG_15261774472094686.jpg");
+    };
+    
+    if (message.content == "NO C"){
+        message.channel.send("https://cdn.discordapp.com/attachments/435174664864530456/445743391259623435/FB_IMG_15261774472094686.jpg");
+    };
+    
+    if (message.content == "noc"){
+        message.channel.send("https://cdn.discordapp.com/attachments/435174664864530456/445743391259623435/FB_IMG_15261774472094686.jpg");
+    };
+    
+    if (message.content == "Noc"){
+        message.channel.send("https://cdn.discordapp.com/attachments/435174664864530456/445743391259623435/FB_IMG_15261774472094686.jpg");
+    };
+    
+    if (message.content == "NOC"){
+        message.channel.send("https://cdn.discordapp.com/attachments/435174664864530456/445743391259623435/FB_IMG_15261774472094686.jpg");
+    };
+    
     if (message.content == "c mamo"){
         message.channel.send("siono raza :v?");
     };
