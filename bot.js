@@ -84,8 +84,31 @@ bot.on('message', function(message) {
         message.channel.send("Adiós.");
     };
     
+    if (message.content == "Hola"){
+        message.channel.send("Adiós.");
+    };
+    
     if (message.content == "jajaja"){
         message.channel.send("c mamo");
+    };
+    if (message.content == "JAJAJA"){
+        message.channel.send("c mamo");
+    };
+    
+    if (message.content == "xd"){
+        message.channel.send("xDxdxdxDxdxdxDxdXdxXdxxdxDXDXDdxDd");
+    };
+    
+    if (message.content == "xD"){
+        message.channel.send("xDxdxdxDxdxdxDxdXdxXdxxdxDXDXDdxDd");
+    };
+    
+    if (message.content == "XD"){
+        message.channel.send("xDxdxdxDxdxdxDxdXdxXdxxdxDXDXDdxDd");
+    };
+    
+    if (message.content == "Xd"){
+        message.channel.send("lpm quien escribe el **xD** con la x mayúscula...");
     };
     
     if (message.content == "ok"){
