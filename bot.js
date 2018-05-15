@@ -98,6 +98,12 @@ bot.on('message', function(message) {
         message.channel.send("fue con otro :''''''''''''v");
     };
     
+    if (message.content == "c"){
+        message.channel.send("bastian");
+        message.channel.send("vedol");
+        message.channel.send("fue con otro :''''''''''''v");
+    };
+    
     if (message.content == "hola"){
         message.channel.send("Adiós.");
     };
