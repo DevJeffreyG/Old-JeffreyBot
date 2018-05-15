@@ -10,6 +10,11 @@ var fortunas = [
     'Realmente no quiero responder eso :3'
 ];
 
+var jeff = [
+    'https://cdn.discordapp.com/attachments/435174664864530456/445745484938608651/20180421_202431.jpg',
+    'https://cdn.discordapp.com/attachments/435174664864530456/445745484938608654/Screenshot_20180514-180640.png'
+];
+
 bot.on('ready', function(listo) {
     console.log("Listo!");
 });
@@ -77,6 +82,21 @@ bot.on('message', function(message) {
     
     if (message.content == "!give 10"){
         message.author.send("Hey! El comando no es así!, el comando es incluyendo el guión **-**.");
+    };
+    // Jeff
+    // mi cara deformada.jpg https://cdn.discordapp.com/attachments/435174664864530456/445745484938608651/20180421_202431.jpg
+    // mi papada toda sensual.jpg https://cdn.discordapp.com/attachments/435174664864530456/445745484938608654/Screenshot_20180514-180640.png
+    
+    if (message.content == "jeff"){
+        message.channel.send("Aquí te envio una foto super secsi de jeff para que no te sientas solo :)" + jeff[Math.floor(Math.random()* jeff.length)]);
+    };
+    
+    if (message.content == "Jeff"){
+        message.channel.send("Aquí te envio una foto super secsi de jeff para que no te sientas solo :)" + jeff[Math.floor(Math.random()* jeff.length)]);
+    };
+    
+    if (message.content == "JEFF"){
+        message.channel.send("Aquí te envio una foto super secsi de jeff para que no te sientas solo :)" + jeff[Math.floor(Math.random()* jeff.length)]);
     };
     
     // Offtopic
