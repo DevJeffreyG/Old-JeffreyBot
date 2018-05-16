@@ -15,6 +15,16 @@ var jeff = [
     'https://cdn.discordapp.com/attachments/435174664864530456/445745484938608654/Screenshot_20180514-180640.png'
 ];
 
+var momo = [
+    'Bad momo prro',
+    'K asko de momo men',
+    'T mamaste con tu momo prron',
+    'JAJA C MAMO EL VATO WE +1000 PRRO',
+    '-100000000 prro',
+    '+9999999999999999999999 PRRO',
+    'Me rio para que no estes solo jaja -100 prro'
+];
+
 bot.on('ready', function(listo) {
     console.log("Listo!");
 });
@@ -179,10 +189,11 @@ bot.on('message', function(message) {
            .addField("j!llego", "Hago saber que tú estas conectado.")
            .addField("j!novedades", "Que hay de nuevo en mi última actualización?")
            .addField("j!links", "Envía un mensaje con los links de redes sociales y del server.")
+           .addField("j!momo", "Envía una respuesta al azar para decir que tan bueno o malo fue el momo del men.")
            .addField("?prefijo", "Te dice el prefijo para citar comandos.")
            .addField("j!ayuda", "Te muestra este mensaje.")
            .setColor(0x00ff15)
-           .setFooter("Versión 1.3 de ayuda.")
+           .setFooter("Versión 2.0 de ayuda.")
            .setThumbnail(message.author.avatarURL)
 
            message.author.send(embed);
@@ -190,7 +201,7 @@ bot.on('message', function(message) {
            break;
 
         case "info":
-            message.channel.send("*Versión de JeffreyBot: 2.5.0*")
+            message.channel.send("*Versión de JeffreyBot: 2.6.0*")
             break;
 
         case "llego":
@@ -209,6 +220,10 @@ bot.on('message', function(message) {
         case "novedades":
             message.channel.send("En la versión 2.5.0")
             message.channel.send("Tiene muchas respuestas entre ellas: 'ok = A ok' , 'oc = A oc' y se incluye el md informativo del comando !give *es un comando del servidor de discord de JeffreyGMD.*")
+            break;
+            
+        case "momo":
+            message.channel.send(momo[Math.floor(Math.random()* momo.length)]);
             break;
             
         case "links":
