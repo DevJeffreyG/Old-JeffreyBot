@@ -108,18 +108,6 @@ bot.on('message', function(message) {
         message.channel.send("largate a nadie le importas nmms ;v");
     };
     
-    if (message.content == "oof"){
-        message.channel.send("dijo el men que c murio en rublax jaja xd");
-    };
-    
-    if (message.content == "Oof"){
-        message.channel.send("dijo el men que c murio en rublax jaja xd");
-    };
-    
-    if (message.content == "OOF"){
-        message.channel.send("dijo el men que c murio en rublax jaja xd");
-    };
-    
     if (message.content == "no c"){
         message.channel.send("https://cdn.discordapp.com/attachments/435174664864530456/445743391259623435/FB_IMG_15261774472094686.jpg");
     };
@@ -144,18 +132,6 @@ bot.on('message', function(message) {
         message.channel.send("https://cdn.discordapp.com/attachments/435174664864530456/445743391259623435/FB_IMG_15261774472094686.jpg");
     };
     
-    if (message.content == "c mamo"){
-        message.channel.send("siono raza :v?");
-    };
-    
-    if (message.content == "C mamo"){
-        message.channel.send("siono raza :v?");
-    };
-    
-    if (message.content == "C MAMO"){
-        message.channel.send("siono raza :v?");
-    };
-    
     if (message.content == "C"){
         message.channel.send("bastian");
         message.channel.send("vedol");
@@ -174,45 +150,6 @@ bot.on('message', function(message) {
     
     if (message.content == "Hola"){
         message.channel.send("Adiós.");
-    };
-    
-    if (message.content == "jajaja"){
-        message.channel.send("c mamo");
-    };
-    if (message.content == "JAJAJA"){
-        message.channel.send("c mamo");
-    };
-    
-    if (message.content == "xd"){
-        message.channel.send("xDxdxdxDxdxdxDxdXdxXdxxdxDXDXDdxDd");
-    };
-    
-    if (message.content == "xD"){
-        message.channel.send("xDxdxdxDxdxdxDxdXdxXdxxdxDXDXDdxDd");
-    };
-    
-    if (message.content == "XD"){
-        message.channel.send("xDxdxdxDxdxdxDxdXdxXdxxdxDXDXDdxDd");
-    };
-    
-    if (message.content == "Xd"){
-        message.channel.send("lpm quien escribe el **xD** con la x mayúscula...");
-    };
-    
-    if (message.content == "ok"){
-        message.channel.send("A ok*");
-    };
-    
-    if (message.content == "oc"){
-        message.channel.send("A oc*");
-    };
-    
-    if (message.content == "okc"){
-        message.channel.send("Porque te copias de yefrigemede >:v");
-    };
-    
-    if (message.content == "Hey"){
-        message.channel.send("Bye.");
     };
 
     if (!message.content.startsWith(Prefijo)) return;
