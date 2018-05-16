@@ -99,6 +99,21 @@ bot.on('message', function(message) {
         message.channel.send("Aquí te envio una foto super secsi de jeff para que no te sientas solo :) " + jeff[Math.floor(Math.random()* jeff.length)]);
     };
     
+    // GDM
+    // https://media.discordapp.net/attachments/435174664864530456/446344038732529675/JPEG_20180514_212825.jpg?width=624&height=468
+    
+    if (message.content == "gdm"){
+        message.channel.send("Aquí te envio una foto super secsi de GDM para que no te sientas solo :) " + "https://media.discordapp.net/attachments/435174664864530456/446344038732529675/JPEG_20180514_212825.jpg?width=624&height=468");
+    };
+    
+    if (message.content == "Gdm"){
+        message.channel.send("Aquí te envio una foto super secsi de GDM para que no te sientas solo :) " + "https://media.discordapp.net/attachments/435174664864530456/446344038732529675/JPEG_20180514_212825.jpg?width=624&height=468");
+    };
+    
+    if (message.content == "GDM"){
+        message.channel.send("Aquí te envio una foto super secsi de GDM para que no te sientas solo :) " + "https://media.discordapp.net/attachments/435174664864530456/446344038732529675/JPEG_20180514_212825.jpg?width=624&height=468");
+    };
+    
     // Offtopic
     if (message.content == "bai"){
         message.channel.send("largate a nadie le importas nmms ;v");
