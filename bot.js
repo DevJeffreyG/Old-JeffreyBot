@@ -218,12 +218,17 @@ bot.on('message', function(message) {
             break;
         
         case "novedades":
-            message.channel.send("En la versión 2.5.0")
-            message.channel.send("Tiene muchas respuestas entre ellas: 'ok = A ok' , 'oc = A oc' y se incluye el md informativo del comando !give *es un comando del servidor de discord de JeffreyGMD.*")
+            message.channel.send("En la versión 2.8.0")
+            message.channel.send("DEP Cuenta principal")
+            message.channel.send("Nuevo icono")
             break;
             
         case "momo":
             message.channel.send(momo[Math.floor(Math.random()* momo.length)]);
+            break;
+            
+        case "dep":
+            message.channel.send("DEP Cuenta principal ;(");
             break;
             
         case "links":
