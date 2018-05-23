@@ -11,8 +11,9 @@ var fortunas = [
 ];
 
 var jeff = [
-    'https://cdn.discordapp.com/attachments/435174664864530456/445745484938608651/20180421_202431.jpg',
-    'https://cdn.discordapp.com/attachments/435174664864530456/445745484938608654/Screenshot_20180514-180640.png'
+    'Aquí te envio una foto super secsi de jeff para que no te sientas solo :) https://cdn.discordapp.com/attachments/435174664864530456/445745484938608651/20180421_202431.jpg',
+    'Aquí te envio una foto super secsi de jeff para que no te sientas solo :) https://cdn.discordapp.com/attachments/435174664864530456/445745484938608654/Screenshot_20180514-180640.png',
+    'Haber pendejo estoy muy ocupado como para estar respondiendo tus mamadas asi que dejas de estar chingando o me violo a tu madre lmao asi que ya aprendizte ademas si se que soy un robot pero no para que me esten chingando a  si y de estar chingando mejor me voy a comer mi ganzito marinela xd asi que avisado we o llamo al pronco para que te moche el pito kabron jaja salu2. Con cariño, Jeffrey Bot :v'
 ];
 
 var momo = [
@@ -98,15 +99,15 @@ bot.on('message', function(message) {
     // mi papada toda sensual.jpg https://cdn.discordapp.com/attachments/435174664864530456/445745484938608654/Screenshot_20180514-180640.png
     
     if (message.content == "jeff"){
-        message.channel.send("Aquí te envio una foto super secsi de jeff para que no te sientas solo :) " + jeff[Math.floor(Math.random()* jeff.length)]);
+        message.channel.send(jeff[Math.floor(Math.random()* jeff.length)]);
     };
     
     if (message.content == "Jeff"){
-        message.channel.send("Aquí te envio una foto super secsi de jeff para que no te sientas solo :) " + jeff[Math.floor(Math.random()* jeff.length)]);
+        message.channel.send(jeff[Math.floor(Math.random()* jeff.length)]);
     };
     
     if (message.content == "JEFF"){
-        message.channel.send("Aquí te envio una foto super secsi de jeff para que no te sientas solo :) " + jeff[Math.floor(Math.random()* jeff.length)]);
+        message.channel.send(jeff[Math.floor(Math.random()* jeff.length)]);
     };
     
     // GDM
@@ -125,6 +126,10 @@ bot.on('message', function(message) {
     };
     
     // Offtopic
+    if (message.content == "Bai"){
+        message.channel.send("largate a nadie le importas nmms ;v");
+    };
+    
     if (message.content == "bai"){
         message.channel.send("largate a nadie le importas nmms ;v");
     };
