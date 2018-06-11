@@ -1,3 +1,5 @@
+<!-- POR FAVOR, HAS TU "ISSUE" CON BASE A ESTA ESTRUCTURA. NO LO ELIMINES. -->
+
 ### Prerequisitos
 
 * [ ] Pon una X entre los [] si ya hiciste TODO lo siguiente:
