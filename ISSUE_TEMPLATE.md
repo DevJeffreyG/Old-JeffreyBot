@@ -2,7 +2,7 @@
 
 ### Prerequisitos
 
-* [] Al colocar una X entre los corchetes afirmo que hice TODO lo siguiente antes de realizar este nuevo "issue":
+* [ ] Al colocar una X entre los corchetes afirmo que hice TODO lo siguiente antes de realizar este nuevo "issue":
     * Revisado los FAQs para soluciones comunes: http://gmdsjeff.000webhostapp.com/faq.php
     * Revisado que tu problema (issue) no se haya solucionado antes: https://github.com/JeffreyRandom/discord-jeffrey-bot/issues?utf8=✓&q=
 
