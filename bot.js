@@ -222,13 +222,14 @@ bot.on('message', function(message) {
            .addField("j!pregunta", "Pregúntame cualquier cosa y yo te responderé con sinceridad! Con respuestas de: Sí, No, Tal vez...")
            .addField("j!info", "Te dice mi versión (Jeffrey Bot)")
            .addField("j!llego", "Hago saber que tú estas conectado.")
+           .addField("j!encuesta", "Has una encuesta con este comando, las personas podrán votar.")
            .addField("j!novedades", "Que hay de nuevo en mi última actualización?")
            .addField("j!links", "Envía un mensaje con los links de redes sociales y del server.")
            .addField("j!momo", "Envía una respuesta al azar para decir que tan bueno o malo fue el momo del men.")
            .addField("?prefijo", "Te dice el prefijo para citar comandos.")
            .addField("j!ayuda", "Te muestra este mensaje.")
            .setColor(0x00ff15)
-           .setFooter("Versión 2.0 de ayuda.")
+           .setFooter("Versión 2.8 de ayuda.")
            .setThumbnail(message.author.avatarURL)
 
            message.author.send(embed);
@@ -236,7 +237,7 @@ bot.on('message', function(message) {
            break;
 
         case "info":
-            message.channel.send("*Versión de JeffreyBot: 2.6.0*")
+            message.channel.send("*Versión de JeffreyBot: 2.8.0*")
             break;
 
         case "llego":
