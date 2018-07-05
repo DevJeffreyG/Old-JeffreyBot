@@ -2,6 +2,12 @@ const Discord = require('discord.js');
 var bot = new Discord.Client();
 const Prefijo = 'j!';
 
+var BOMB = [
+    '+1 Kill.',
+    'Tu cuenta ha sido suspendida.'
+];
+    
+
 var fortunas = [
     'Sí',
     'No',
@@ -56,6 +62,22 @@ bot.on('message', function(message) {
     
     if (message.content == "Ira pues"){
         message.channel.send("dijo el ded xDxDxdXdxdxDxDD");
+    };
+    // BOMB @MAS
+    if (message.content == "BOMB @MAS"){
+        message.channel.send(BOMB[Math.floor(Math.random()* BOMB.length)]);
+    };
+    
+    if (message.content == "Bomb @MAS"){
+        message.channel.send(BOMB[Math.floor(Math.random()* BOMB.length)]);
+    };
+    
+    if (message.content == "Bomb @Mas"){
+        message.channel.send(BOMB[Math.floor(Math.random()* BOMB.length)]);
+    };
+    
+    if (message.content == "bomb @mas"){
+        message.channel.send(BOMB[Math.floor(Math.random()* BOMB.length)]);
     };
     
     // Comando !give error
