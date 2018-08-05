@@ -269,8 +269,8 @@ bot.on('message', function(message) {
             
         case "links":
         var embed = new Discord.RichEmbed()
-        .addField("YouTube de Jeffrey", "https://www.youtube.com/channel/UCCYiF7GGja7iJgsc4LN0oHw", true)
-        .addField("Twitter de Jeffrey", "https://www.twitter.com/JeffreyGMD", true)
+        .addField("YouTube de Jeffrey", "https://www.youtube.com/c/JeffreyG", true)
+        .addField("Twitter de Jeffrey", "https://www.twitter.com/_JeffreyG_", true)
         .addField("Wanderzad de Jeffrey", "http://www.wanderzad.ml/JeffreyGMD")
         .addField("Página del server", "https://gmdsjeff.000webhostapp.com/")
         .setColor(0x00ff15)
