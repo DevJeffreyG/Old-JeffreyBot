@@ -5,7 +5,7 @@ JeffreyBot: Un bot de diversión, moderación, niveles y autorespuestas randoms.
 Si necesitas ayuda tal vez deberías ver la <a href="https://github.com/JeffreyRandom/JeffreyBot/wiki">wiki</a> del bot.
 
 # Self-Hosting
-Este bot no está permitido el "Self-Hosting".
+En este bot no está permitido el "Self-Hosting".
 
 # Soporte
 [![Support](https://discordapp.com/api/guilds/447797737216278528/widget.png?style=shield)](https://discord.gg/ComingSoonSupport)
