@@ -1,12 +1,11 @@
-# Discord: Jeffrey Bot
-Bot de discord usando Heroku (24/7)
+[![Support](https://discordapp.com/api/guilds/447797737216278528/widget.png?style=shield)](https://discord.gg/ComingSoonSupport)
+![GitHub stars](https://img.shields.io/github/stars/JeffreyRandom/discord-jeffrey-bot.svg?style=social&label=Stars&style=flat)
 
-# Invitar a tu server
-Usa este <a href="https://discordapp.com/oauth2/authorize?client_id=448650703737454602&permissions=2146958583&scope=bot">link</a>
-para invitar al bot a tu server.
+# JeffreyBot
+JeffreyBot: Un bot de diversión, moderación, niveles y autorespuestas randoms.
 
-# ¿Como usar?
-Si no sabes los comandos solo has j!ayuda
+# Wiki
+Si necesitas ayuda tal vez deberías ver la [wiki]("https://github.com/JeffreyRandom/discord-jeffrey-bot/wiki").
 
-# ¿Qué hay de nuevo?
-Para saber que hay de nuevo sólo has el comando j!novedades te dirá que hay de nuevo en la última actualización.
+# Self-Hosting
+Este bot no está permitido el "Self-Hosting".
