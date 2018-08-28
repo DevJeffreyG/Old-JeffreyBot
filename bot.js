@@ -55,14 +55,6 @@ bot.on('message', function(message) {
     if (message.content == "?prefijo"){
         message.channel.send("El prefijo es " + Prefijo);
     };
-    // Ded
-    if (message.content == "ira pues"){
-        message.channel.send("dijo el ded xDxDxdXdxdxDxDD");
-    };
-    
-    if (message.content == "Ira pues"){
-        message.channel.send("dijo el ded xDxDxdXdxdxDxDD");
-    };
     // BOMB @MAS
     if (message.content == "BOMB @MAS"){
         message.channel.send(BOMB[Math.floor(Math.random()* BOMB.length)]);
