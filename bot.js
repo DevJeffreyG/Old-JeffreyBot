@@ -203,14 +203,6 @@ bot.on('message', function(message) {
         message.channel.send("vedol");
         message.channel.send("fue con otro :''''''''''''v");
     };
-    
-    if (message.content == "hola"){
-        message.channel.send("Adiós.");
-    };
-    
-    if (message.content == "Hola"){
-        message.channel.send("Adiós.");
-    };
 
     if (!message.content.startsWith(Prefijo)) return;
     var args = message.content.substring(Prefijo.length).split(/ +/);
