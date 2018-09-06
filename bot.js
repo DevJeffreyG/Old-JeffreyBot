@@ -146,55 +146,6 @@ bot.on('message', function(message) {
     if (message.content == "GDM"){
         message.channel.send("Aquí te envio una foto super secsi de GDM para que no te sientas solo :) " + "https://media.discordapp.net/attachments/435174664864530456/446344038732529675/JPEG_20180514_212825.jpg?width=624&height=468");
     };
-    
-    // Offtopic
-    if (message.content == "Bai"){
-        message.channel.send("largate a nadie le importas nmms ;v");
-    };
-    
-    if (message.content == "bai"){
-        message.channel.send("largate a nadie le importas nmms ;v");
-    };
-    
-    if (message.content == "BAI"){
-        message.channel.send("largate a nadie le importas nmms ;v");
-    };
-    
-    if (message.content == "no c"){
-        message.channel.send("https://cdn.discordapp.com/attachments/435174664864530456/445743391259623435/FB_IMG_15261774472094686.jpg");
-    };
-    
-    if (message.content == "No c"){
-        message.channel.send("https://cdn.discordapp.com/attachments/435174664864530456/445743391259623435/FB_IMG_15261774472094686.jpg");
-    };
-    
-    if (message.content == "NO C"){
-        message.channel.send("https://cdn.discordapp.com/attachments/435174664864530456/445743391259623435/FB_IMG_15261774472094686.jpg");
-    };
-    
-    if (message.content == "noc"){
-        message.channel.send("https://cdn.discordapp.com/attachments/435174664864530456/445743391259623435/FB_IMG_15261774472094686.jpg");
-    };
-    
-    if (message.content == "Noc"){
-        message.channel.send("https://cdn.discordapp.com/attachments/435174664864530456/445743391259623435/FB_IMG_15261774472094686.jpg");
-    };
-    
-    if (message.content == "NOC"){
-        message.channel.send("https://cdn.discordapp.com/attachments/435174664864530456/445743391259623435/FB_IMG_15261774472094686.jpg");
-    };
-    
-    if (message.content == "C"){
-        message.channel.send("bastian");
-        message.channel.send("vedol");
-        message.channel.send("fue con otro :''''''''''''v");
-    };
-    
-    if (message.content == "c"){
-        message.channel.send("bastian");
-        message.channel.send("vedol");
-        message.channel.send("fue con otro :''''''''''''v");
-    };
 
     if (!message.content.startsWith(Prefijo)) return;
     var args = message.content.substring(Prefijo.length).split(/ +/);
