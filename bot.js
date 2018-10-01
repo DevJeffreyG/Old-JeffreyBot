@@ -55,6 +55,16 @@ bot.on('message', function(message) {
     if (message.content == "?prefijo"){
         message.channel.send("El prefijo es " + Prefijo);
     };
+      /* Octubre sin PacMan */
+
+    var filtered = [":v", ":u", ".u", ".v", ":'v", ':"v', ".'v'", '."v', ":'u", ':"u', "v:", "u:", ":,v", ":,u", 'v":":', ":y", "y:"];
+    for (var filter of filtered) {
+        if (message.content.indexOf(filter) !== -1) {
+            message.delete();
+            return message.reply("Octubre sin Pac-Man.");
+        }
+    }
+    
     // BOMB @MAS
     if (message.content == "BOMB @MAS"){
         message.channel.send(BOMB[Math.floor(Math.random()* BOMB.length)]);
