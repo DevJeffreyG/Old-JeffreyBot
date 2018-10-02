@@ -57,7 +57,7 @@ bot.on('message', function(message) {
     };
       /* Octubre sin PacMan */
 
-    var filtered = [":v", ":u", ".u", ".v", ":'v", ':"v', ".'v'", '."v', ":'u", ':"u', "v:", "u:", ":,v", ":,u", 'v":":', ":y", "y:", ":V", ":U"];
+    var filtered = [":v", ":u", ".u", ".v", ":'v", ':"v', ".'v'", '."v', ":'u", ':"u', "v:", "u:", ":,v", ":,u", 'v":":', ":y", "y:", ":V", ":U", ";V", ";v", ";U", ";u"];
     for (var filter of filtered) {
         if (message.content.indexOf(filter) !== -1) {
             message.delete();
