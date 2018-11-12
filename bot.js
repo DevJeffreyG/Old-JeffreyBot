@@ -8,6 +8,7 @@ bot.on('ready', () => {
 
 bot.on('message', function(message) {
     if(message.content.startsWith(Prefijo)){
+        message.delete();
         let embed = new Discord.RichEmbed()
         .setTitle(`Ups!`, message.author.displayAvatarURL)
         .setDescription(`Esta versión de JeffreyBot es obsoleta. Un nuevo ya está disponible.`)
