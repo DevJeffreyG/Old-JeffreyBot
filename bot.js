@@ -8,7 +8,11 @@ bot.on('ready', () => {
 
 bot.on('message', function(message) {
     if(message.content.startsWith(Prefijo)){
-        message.reply(`Esta versión de JeffreyBot es obsoleta. Un nuevo ya está disponible.`)
+        let embed = new Discord.RichEmbed()
+        .setTitle(`Ups!`)
+        .setDescription(`Esta versión de JeffreyBot es obsoleta. Un nuevo ya está disponible.`)
+        .setFooter(` `, message.author.displayAvatarURL);
+        return message.channel.send(embed).then(msg => msg.delete(7000));
     }
 })
     
