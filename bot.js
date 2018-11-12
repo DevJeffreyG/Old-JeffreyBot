@@ -9,9 +9,9 @@ bot.on('ready', () => {
 bot.on('message', function(message) {
     if(message.content.startsWith(Prefijo)){
         let embed = new Discord.RichEmbed()
-        .setTitle(`Ups!`)
+        .setTitle(`Ups!`, message.author.displayAvatarURL)
         .setDescription(`Esta versión de JeffreyBot es obsoleta. Un nuevo ya está disponible.`)
-        .setFooter(` `, message.author.displayAvatarURL);
+        .setColor("RED")
         return message.channel.send(embed).then(msg => msg.delete(7000));
     }
 })
