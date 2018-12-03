@@ -11,7 +11,7 @@ bot.on('message', function(message) {
         message.delete();
         let embed = new Discord.RichEmbed()
         .setTitle(`Ups!`, message.author.displayAvatarURL)
-        .setDescription(`Esta versión de JeffreyBot es obsoleta. Un nuevo ya está disponible.`)
+        .setDescription(`Esta versión de JeffreyBot es obsoleta. Uno nuevo ya está disponible.`)
         .setColor("RED")
         return message.channel.send(embed).then(msg => msg.delete(7000));
     }
